@@ -1,0 +1,29 @@
+.DS_Store
+
+# Local environments
+.env
+.env.*
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Private or regulated materials
+materials/private/
+data/private/
+data/raw/
+data/clinical/
+
+# Large/generated outputs
+data/processed/
+outputs/
+results/
+reports/generated/
+
+# Audio files are ignored by default to avoid accidental PHI or large-file commits.
+*.wav
+*.flac
+*.mp3
+*.m4a
+*.aac
+
